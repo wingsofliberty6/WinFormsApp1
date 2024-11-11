@@ -34,74 +34,128 @@
             contra_textbox = new TextBox();
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
             SuspendLayout();
             // 
             // registro_butt
             // 
-            registro_butt.Location = new Point(21, 221);
+            registro_butt.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            registro_butt.ForeColor = SystemColors.GrayText;
+            registro_butt.Location = new Point(37, 337);
+            registro_butt.Margin = new Padding(4, 2, 4, 2);
             registro_butt.Name = "registro_butt";
-            registro_butt.Size = new Size(119, 34);
+            registro_butt.Size = new Size(115, 30);
             registro_butt.TabIndex = 0;
-            registro_butt.Text = "registro";
+            registro_butt.Text = "Registro";
             registro_butt.UseVisualStyleBackColor = true;
             registro_butt.Click += button1_Click;
             // 
             // ini_sesion_butt
             // 
-            ini_sesion_butt.Location = new Point(168, 226);
+            ini_sesion_butt.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            ini_sesion_butt.ForeColor = SystemColors.GrayText;
+            ini_sesion_butt.Location = new Point(205, 339);
+            ini_sesion_butt.Margin = new Padding(4, 2, 4, 2);
             ini_sesion_butt.Name = "ini_sesion_butt";
-            ini_sesion_butt.Size = new Size(124, 29);
+            ini_sesion_butt.Size = new Size(115, 30);
             ini_sesion_butt.TabIndex = 1;
-            ini_sesion_butt.Text = "iniciar sesion";
+            ini_sesion_butt.Text = "Iniciar sesion";
             ini_sesion_butt.UseVisualStyleBackColor = true;
             ini_sesion_butt.Click += button2_Click;
             // 
             // correo_textbox
             // 
-            correo_textbox.Location = new Point(167, 58);
+            correo_textbox.Location = new Point(96, 160);
+            correo_textbox.Margin = new Padding(4, 2, 4, 2);
             correo_textbox.Name = "correo_textbox";
-            correo_textbox.Size = new Size(125, 27);
+            correo_textbox.Size = new Size(176, 23);
             correo_textbox.TabIndex = 2;
             // 
             // contra_textbox
             // 
-            contra_textbox.Location = new Point(168, 107);
+            contra_textbox.Location = new Point(96, 260);
+            contra_textbox.Margin = new Padding(4, 2, 4, 2);
             contra_textbox.Name = "contra_textbox";
-            contra_textbox.Size = new Size(125, 27);
+            contra_textbox.Size = new Size(176, 23);
             contra_textbox.TabIndex = 3;
             contra_textbox.TextChanged += textBox2_TextChanged;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top;
             label1.AutoSize = true;
-            label1.Location = new Point(12, 61);
+            label1.Font = new Font("Open Sans Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.HighlightText;
+            label1.Location = new Point(154, 114);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(59, 20);
+            label1.Size = new Size(65, 20);
             label1.TabIndex = 4;
             label1.Text = "Usuario";
+            label1.TextAlign = ContentAlignment.TopCenter;
             label1.Click += label1_Click;
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top;
             label2.AutoSize = true;
-            label2.Location = new Point(21, 110);
+            label2.Font = new Font("Open Sans Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.HighlightText;
+            label2.Location = new Point(141, 217);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(81, 20);
+            label2.Size = new Size(94, 20);
             label2.TabIndex = 5;
-            label2.Text = "contraseña";
+            label2.Text = "Contraseña";
+            label2.TextAlign = ContentAlignment.TopCenter;
+            label2.Click += label2_Click;
+            // 
+            // label3
+            // 
+            label3.Anchor = AnchorStyles.Top;
+            label3.AutoSize = true;
+            label3.Font = new Font("Open Sans Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.HighlightText;
+            label3.Location = new Point(114, 36);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(146, 33);
+            label3.TabIndex = 6;
+            label3.Text = "Bienvenido";
+            label3.TextAlign = ContentAlignment.TopCenter;
+            label3.Click += label3_Click;
+            // 
+            // label4
+            // 
+            label4.Anchor = AnchorStyles.Top;
+            label4.AutoSize = true;
+            label4.Font = new Font("Open Sans", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.HighlightText;
+            label4.Location = new Point(114, 410);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(134, 15);
+            label4.TabIndex = 7;
+            label4.Text = "@ Registrado como PIA";
+            label4.TextAlign = ContentAlignment.TopCenter;
+            label4.Click += label4_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(314, 312);
+            BackColor = Color.DarkCyan;
+            ClientSize = new Size(366, 458);
+            Controls.Add(label4);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(contra_textbox);
             Controls.Add(correo_textbox);
             Controls.Add(ini_sesion_butt);
             Controls.Add(registro_butt);
+            Margin = new Padding(4, 2, 4, 2);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -117,5 +171,7 @@
         private TextBox contra_textbox;
         private Label label1;
         private Label label2;
+        private Label label3;
+        private Label label4;
     }
 }
