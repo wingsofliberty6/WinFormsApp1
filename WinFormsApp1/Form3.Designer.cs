@@ -62,6 +62,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.HighlightText;
             label1.Location = new Point(28, 39);
             label1.Name = "label1";
             label1.Size = new Size(124, 18);
@@ -73,6 +74,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.HighlightText;
             label2.Location = new Point(28, 97);
             label2.Name = "label2";
             label2.Size = new Size(80, 18);
@@ -83,6 +85,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.HighlightText;
             label3.Location = new Point(28, 154);
             label3.Name = "label3";
             label3.Size = new Size(120, 18);
@@ -93,7 +96,8 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(401, 227);
+            label4.ForeColor = SystemColors.HighlightText;
+            label4.Location = new Point(401, 220);
             label4.Name = "label4";
             label4.Size = new Size(135, 18);
             label4.TabIndex = 3;
@@ -125,7 +129,7 @@
             // 
             // monthCalendar1
             // 
-            monthCalendar1.Location = new Point(444, 258);
+            monthCalendar1.Location = new Point(444, 251);
             monthCalendar1.Margin = new Padding(8, 7, 8, 7);
             monthCalendar1.MaxDate = new DateTime(2100, 12, 31, 0, 0, 0, 0);
             monthCalendar1.MinDate = new DateTime(1900, 1, 1, 0, 0, 0, 0);
@@ -135,7 +139,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(670, 512);
+            button1.Location = new Point(653, 512);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(115, 30);
@@ -146,14 +150,14 @@
             // 
             // button2
             // 
-            button2.Location = new Point(533, 512);
+            button2.Location = new Point(516, 512);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(115, 30);
             button2.TabIndex = 12;
             button2.Text = "Agregar";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += this.button2_Click;
+            //button2.Click += this.button2_Click; error revisar
             // 
             // textBox4
             // 
@@ -167,6 +171,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = SystemColors.HighlightText;
             label5.Location = new Point(28, 209);
             label5.Name = "label5";
             label5.Size = new Size(100, 18);
@@ -186,6 +191,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.ForeColor = SystemColors.HighlightText;
             label6.Location = new Point(28, 263);
             label6.Name = "label6";
             label6.Size = new Size(42, 18);
@@ -197,7 +203,8 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(28, 317);
+            label7.ForeColor = SystemColors.HighlightText;
+            label7.Location = new Point(28, 319);
             label7.Name = "label7";
             label7.Size = new Size(32, 18);
             label7.TabIndex = 17;
@@ -205,7 +212,7 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(87, 340);
+            textBox6.Location = new Point(87, 342);
             textBox6.Margin = new Padding(3, 2, 3, 2);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(253, 23);
@@ -213,7 +220,7 @@
             // 
             // textBox7
             // 
-            textBox7.Location = new Point(87, 399);
+            textBox7.Location = new Point(87, 401);
             textBox7.Margin = new Padding(3, 2, 3, 2);
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(253, 23);
@@ -223,7 +230,8 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(28, 375);
+            label8.ForeColor = SystemColors.HighlightText;
+            label8.Location = new Point(28, 377);
             label8.Name = "label8";
             label8.Size = new Size(109, 18);
             label8.TabIndex = 19;
@@ -231,7 +239,7 @@
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(87, 455);
+            textBox8.Location = new Point(87, 457);
             textBox8.Margin = new Padding(3, 2, 3, 2);
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(253, 23);
@@ -241,7 +249,8 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(28, 433);
+            label9.ForeColor = SystemColors.HighlightText;
+            label9.Location = new Point(28, 435);
             label9.Name = "label9";
             label9.Size = new Size(68, 18);
             label9.TabIndex = 21;
@@ -249,7 +258,7 @@
             // 
             // textBox9
             // 
-            textBox9.Location = new Point(87, 506);
+            textBox9.Location = new Point(87, 512);
             textBox9.Margin = new Padding(3, 2, 3, 2);
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(253, 23);
@@ -259,7 +268,8 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.Location = new Point(28, 485);
+            label10.ForeColor = SystemColors.HighlightText;
+            label10.Location = new Point(28, 491);
             label10.Name = "label10";
             label10.Size = new Size(47, 18);
             label10.TabIndex = 23;
@@ -277,7 +287,8 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(399, 44);
+            label11.ForeColor = SystemColors.HighlightText;
+            label11.Location = new Point(399, 41);
             label11.Name = "label11";
             label11.Size = new Size(122, 18);
             label11.TabIndex = 25;
@@ -295,6 +306,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.ForeColor = SystemColors.HighlightText;
             label12.Location = new Point(401, 99);
             label12.Name = "label12";
             label12.Size = new Size(43, 18);
@@ -313,6 +325,7 @@
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.ForeColor = SystemColors.HighlightText;
             label13.Location = new Point(401, 153);
             label13.Name = "label13";
             label13.Size = new Size(62, 18);
@@ -324,7 +337,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkCyan;
-            ClientSize = new Size(803, 560);
+            ClientSize = new Size(784, 560);
             Controls.Add(textBox12);
             Controls.Add(label13);
             Controls.Add(textBox11);

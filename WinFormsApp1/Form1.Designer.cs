@@ -40,7 +40,7 @@
             // 
             // registro_butt
             // 
-            registro_butt.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            registro_butt.Font = new Font("Open Sans Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
             registro_butt.ForeColor = SystemColors.GrayText;
             registro_butt.Location = new Point(37, 337);
             registro_butt.Margin = new Padding(4, 2, 4, 2);
@@ -53,7 +53,7 @@
             // 
             // ini_sesion_butt
             // 
-            ini_sesion_butt.Font = new Font("Open Sans Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            ini_sesion_butt.Font = new Font("Open Sans Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
             ini_sesion_butt.ForeColor = SystemColors.GrayText;
             ini_sesion_butt.Location = new Point(205, 339);
             ini_sesion_butt.Margin = new Padding(4, 2, 4, 2);
