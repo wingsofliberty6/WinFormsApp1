@@ -87,7 +87,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Open Sans Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.HighlightText;
-            label1.Location = new Point(154, 114);
+            label1.Location = new Point(154, 121);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(65, 20);
